@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+joblib
+numpy
+scikit-learn
+matplotlib
+
+requests
+pytest
+httpx
+boto3
+
+python-dotenv
