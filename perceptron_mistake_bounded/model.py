@@ -19,7 +19,7 @@ class PerceptronMistakeBounded:
             for x_i, y_i in zip(X, y):
                 linear_output = np.dot(x_i, self.weights) + self.bias
                 predicted = np.sign(linear_output)
-
+                print(linear_output)
                 if predicted != y_i:
                     self.weights += self.learning_rate * y_i * x_i
                     self.bias += self.learning_rate * y_i
